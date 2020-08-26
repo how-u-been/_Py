@@ -9,15 +9,15 @@ if x%2 == 0:
 elif x%2 != 0:
     print('X is an odd number...')
 if y%2 == 0:
-    print('Y is an even number...')
+    print('...and Y is an even number...')
 elif y%2 != 0:
-    print('Y is an odd number...')
+    print('...and Y is an odd number...')
 if z%2 == 0:
-    print('Z is an even number...')
+    print('...and Z is an even number...')
 elif z%2 != 0:
-    print('Z is an odd number...')
+    print('...and Z is an odd number...')
 
 if x%2 != 0:
-    if z%2 != 0: print('...and X is a larger odd than Z.') if x > z else print('...and Z is a larger odd than X.')
+    if z%2 != 0: print('...and X is a larger odd than Z!') if x > z else print('...and Z is a larger odd than X!')
 if x%2 != 0:
-    if y%2 != 0: print('...and X is a larger odd than Y.') if x > y  else print('...and Y is a larger odd than X.')
+    if y%2 != 0: print('...and X is a larger odd than Y!') if x > y  else print('...and Y is a larger odd than X!')
